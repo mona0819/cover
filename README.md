@@ -31,10 +31,144 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+<head>
+    <title>The Book</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, serif;
+            color: black;
+        }
+        .book {
+            width: 618px;
+            height: 730px;
+            border-radius: 25px;
+            margin: 20px auto;
+            background-image: url("Ocean.png");
+            background-size: cover;
+            background-position: center;
+            box-sizing: border-box;
+            padding: 20px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+}
+        .header{
+            text-align: left;
+            font-size: 20px;
+            margin-top: 2px;
+            color:black;
+        }
+        .about {
+            font-size: 18px;
+            color:white;
+           
+        }
+        .highlight{
+            background:black;
+            padding:3px 6px;
+}
+        .quote{
+            text-align: center;
+            font-style: italic;
+            background-color: pink;
+            border-left: 5px solid lavender;
+            font-size: 25px;
+            margin-top: 1px;
+            margin-bottom: 20px;
+            padding: 5px;
+            color:black;
 
+        }
+        .image{
+            height: 120px;
+            width: 100px;
+            display: flex;
+            padding: 10px;
+        }
+
+        .authorbox{
+            display: flex;
+            background-color: white;
+            border: 2px black;
+        }
+
+        .author{
+            margin-left: 15px;
+            font-size: 15px;
+        }
+        .publishers{
+            margin-left: 19px;
+        }
+        .footer{
+            background: violet;
+            color: black;
+            margin-top: 15px;   
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px;
+}
+        .price{
+            color: black;
+            font-size: 20px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body bgcolor="white">
+<div class="book">
+    <div class="header">
+        <h1>About The Book</h1>
+        <hr color="black" size="5">
+        
+    </div>
+    <div class="about">
+        <p>Home making works are the daily activities done to keep a home clean,
+           safe, and comfortable. It includes cooking food, cleaning the house, 
+           washing clothes, arranging things properly, and taking care of family members. 
+          <span class="highlight">"These works help in maintaining a healthy and happy environment 
+           at home."</span> Home making also requires patience, responsibility, and good
+           time management. It plays an important role in making family life peaceful and organized.
+        </p>
+    </div>
+    <div class="quote">
+        <p>
+            "Home is not just a place; it is where care and love create happiness."
+        </p>
+    </div>
+    <div class="authorbox">
+        <div class="image">
+            <img src="pic.jpeg" alt="Author Photo" width="100">
+        </div>
+
+        <div class="author">
+            <h3>Anbarasi D</h3>
+            <p>Anbarasi is a B.A. graduate, dedicated homemaker, and former teacher.
+             She has valuable experience in managing household responsibilities
+             with care and patience.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="PUBLISHERS">
+            <h4>SEC PUBLISHERS</h4>
+            <p>Printed in India</p>
+        </div>
+        <div class="price">
+            Price: Rs.460
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+```
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
